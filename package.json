@@ -2,7 +2,7 @@
   "name": "team",
   "version": "0.1.0",
   "private": true,
-  "proxy":"https://teammanager18.netlify.app",
+  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
