@@ -1,6 +1,6 @@
 import fetcher from "@/libs/fetcher";
 import useSwr from "swr";
-const useGetMembers = () => {
+const UseGetMembers = () => {
   const { data, error, mutate, isLoading } = useSwr("/api/getMembers", fetcher);
 
   return {
@@ -11,4 +11,4 @@ const useGetMembers = () => {
   };
 };
 
-export default useGetMembers;
+export default UseGetMembers;

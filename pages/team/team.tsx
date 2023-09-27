@@ -1,6 +1,7 @@
 import Card from '@/components/Card';
 import Navbar from '@/components/Navbar'
 import useCurrentUser from '@/hooks/useCurrentUser';
+import UseGetMembers from '@/hooks/useGetMembers';
 import useGetMembers from '@/hooks/useGetMembers';
 import { members } from '@prisma/client';
 import { NextPageContext } from 'next';
@@ -33,7 +34,7 @@ export async function getServerSideProps(context: NextPageContext) {
 
 const team = () => {
 
-  const { data: members } = useGetMembers();
+  const { data: members } = UseGetMembers();
 
 
   return (
