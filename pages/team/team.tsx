@@ -27,12 +27,14 @@ export async function getServerSideProps(context: NextPageContext) {
 }
 
 
- const { data: members } = useGetMembers();
-
+ 
 
 
 
 const team = () => {
+
+  const { data: members } = useGetMembers();
+
 
   return (
     <div className="w-screen h-full ">
