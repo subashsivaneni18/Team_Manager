@@ -56,7 +56,7 @@ export default function Home() {
       toast.error('Something Went Wrong')
     }
 
-  },[email,password,username,router,setVariant])
+  },[email,password,username,setVariant])
 
   
 

@@ -34,8 +34,6 @@ export async function getServerSideProps(context: NextPageContext) {
 
 const team = () => {
 
-
-
   return (
     <div className="w-screen h-full ">
       <Navbar />

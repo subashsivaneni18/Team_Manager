@@ -36,7 +36,7 @@ const CreateModal = () => {
       } catch (error) {
         console.log(error);
       }
-    }, [name,email,role,mobileNo,members,setEmail,setMobileNo,setName,setRole]);
+    }, [name,email,role,mobileNo,members,setEmail,setMobileNo,setName,setRole,createModal]);
 
       const bodyContent = (
         <div className="flex flex-col justify-center items-center gap-4">

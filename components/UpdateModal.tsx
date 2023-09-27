@@ -43,7 +43,7 @@ const UpdateModal = () => {
         } catch (error) {
           console.log(error)
         }
-    },[cardId,mutate,name,email,role,mobileNo])
+    },[cardId,mutate,name,email,role,mobileNo,updateModal])
 
     
    

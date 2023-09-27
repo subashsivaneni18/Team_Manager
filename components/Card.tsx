@@ -40,7 +40,7 @@ const Card:React.FC<CardProps> = ({
         } catch (error) {
           console.log(error)
         }
-  },[cardId])
+  },[cardId,members])
 
   const handleClick = useCallback(async()=>{
       try {
@@ -49,7 +49,7 @@ const Card:React.FC<CardProps> = ({
       } catch (error) {
         console.log(error)
       }
-  },[cardId,router])
+  },[cardId,router,updateModal])
 
 
 
