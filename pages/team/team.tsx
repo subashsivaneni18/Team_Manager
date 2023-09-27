@@ -34,10 +34,10 @@ export async function getServerSideProps(context: NextPageContext) {
 
 const team = () => {
 
-  const {data:currentUser} = useCurrentUser()
+  
   const {data:members} = useGetMembers()
   
-  console.log(members)
+  
  
 
   return (
